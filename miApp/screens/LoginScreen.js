@@ -5,7 +5,7 @@ export default function LoginScreen({navigation}) {
     <View style={styles.container}>
 
       <Image
-        source={require("../assets/logo.png")}
+        source={require("../assets/segurimedic_logo.png")}
         style={styles.logo}
       />
 
