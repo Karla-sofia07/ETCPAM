@@ -18,7 +18,7 @@ export const registerUser = async (name, email, password) => {
     if (existingUser) {
       return { success: false, error: 'Email ya registrado' };
     }
-     
+    
     const newUser = {
       id: Date.now().toString(),
       name,
